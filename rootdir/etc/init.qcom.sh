@@ -235,7 +235,6 @@ case "$target" in
                   esac
                   ;;
        esac
-        start_msm_irqbalance660
         ;;
     "apq8084")
         platformvalue=`cat /sys/devices/soc0/hw_platform`
