@@ -33,14 +33,12 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay \
-    $(DEVICE_PATH)/overlay-lineage \
-    $(DEVICE_PATH)/overlay-system
+    $(DEVICE_PATH)/overlay-lineage
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     $(DEVICE_PATH)/overlay-lineage/lineage-sdk \
-    $(DEVICE_PATH)/overlay-lineage/packages/apps/Snap \
-    $(DEVICE_PATH)/overlay-system
+    $(DEVICE_PATH)/overlay-lineage/packages/apps/Snap
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
@@ -179,6 +177,11 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.5 \
     libdng_sdk.vendor \
     vendor.qti.hardware.camera.device@1.0
+
+# Component overrides
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/component-overrides.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sysconfig/component-overrides.xml \
+    $(DEVICE_PATH)/configs/component-overrides-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/component-overrides.xml
 
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
