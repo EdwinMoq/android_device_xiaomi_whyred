@@ -155,6 +155,7 @@ vendor.vidc.enc.disable_bframes=1
 vendor.vidc.enc.disable.pq=true
 
 # Netmgr
+persist.vendor.data.iwlan.enable=true
 persist.vendor.data.mode=concurrent
 ro.vendor.use_data_netmgrd=true
 
