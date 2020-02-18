@@ -1,0 +1,3 @@
+# Fwk detect
+ro.vendor.qti.va_aosp.support=1
+ro.vendor.qti.va_odm.support=1
