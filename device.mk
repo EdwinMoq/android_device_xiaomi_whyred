@@ -296,7 +296,6 @@ PRODUCT_PACKAGES += \
     init.qcom.post_boot.sh \
     init.qti.dcvs.sh \
     init.qcom.rc \
-    init.qcom.sensors.sh \
     init.qcom.sh \
     init.qcom.usb.rc \
     init.qcom.usb.sh \
