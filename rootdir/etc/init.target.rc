@@ -65,7 +65,6 @@ on post-fs-data
     mkdir /data/vendor/tombstones/lpass 0771 system system
     mkdir /data/vendor/tombstones/wcnss 0771 system system
     mkdir /data/vendor/tombstones/dsps 0771 system system
-    mkdir /data/vendor/hbtp 0750 system system
     mkdir /data/vendor/misc/seemp 0700 system system
 
     mkdir /persist/qti_fp 0700 system system
@@ -275,12 +274,6 @@ service thermal-engine /system/vendor/bin/thermal-engine
 #   class main
 #   user media
 #   group media
-
-service hbtp /system/vendor/bin/hbtp_daemon
-    class main
-    user system
-    group system
-    disabled
 
 service audiod /system/vendor/bin/audiod
    class late_start
