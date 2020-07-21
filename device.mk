@@ -483,11 +483,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/excluded-input-devices.xml:vendor/etc/excluded-input-devices.xml
 
-# VNDK
-PRODUCT_PACKAGES += \
-    vndk-ext \
-    vndk_package
-
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
