@@ -479,6 +479,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.basic
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.vibrator.service
+
 # VNDK
 PRODUCT_PACKAGES += \
     vndk-ext \
