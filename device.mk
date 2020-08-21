@@ -455,6 +455,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcamera_shim
 
+# Tethering
+PRODUCT_PACKAGES += \
+    TetheringConfigOverlay
+
 # Tetheroffload
 PRODUCT_PACKAGES += \
     ipacm \
