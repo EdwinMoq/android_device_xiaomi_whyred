@@ -1,3 +1,6 @@
+# BPF
+ro.kernel.ebpf.supported=true
+
 # CNE
 persist.vendor.cne.feature=1
 
