@@ -33,7 +33,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
-    $(DEVICE_PATH)/overlay-lineage/lineage-sdk \
     $(DEVICE_PATH)/overlay-lineage/packages/apps/Snap
 
 # Soong namespaces
