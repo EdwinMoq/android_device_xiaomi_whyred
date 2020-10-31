@@ -381,6 +381,7 @@ firmware_directories /vendor/firmware_mnt/image/
 /sys/class/leds/red      delay_off    0640    system    system
 /sys/class/leds/red      breath       0640    system    system
 /sys/class/leds/red      trigger      0640    system    system
+/sys/class/leds/red      max_brightness 0640  system    system
 /sys/class/leds/green    delay_on     0640    system    system
 /sys/class/leds/green    delay_off    0640    system    system
 /sys/class/leds/green    breath       0640    system    system
