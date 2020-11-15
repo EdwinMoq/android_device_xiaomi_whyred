@@ -40,6 +40,9 @@
          rmem_min,rmem_def,rmem_max,wmem_min,wmem_def,wmem_max -->
     <string name="config_wifi_tcp_buffers" translatable="false">524288,2097152,8388608,262144,524288,4194304</string>
 
+    <!-- Do not translate. Default access point SSID used for tethering -->
+    <string name="wifi_tether_configure_ssid_default" translatable="false">Redmi Note 5</string>
+
     <!-- Wifi driver supports Automatic channel selection (ACS) for softap -->
     <bool translatable="false" name="config_wifi_softap_acs_supported">true</bool>
 
