@@ -450,10 +450,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
-# TextClassifier smart selection model files
-PRODUCT_PACKAGES += \
-    textclassifier.bundle1
-
 # Trust
 PRODUCT_PACKAGES += \
     vendor.lineage.trust@1.0-service
