@@ -1,4 +1,4 @@
-<!-- Copyright (c) 2017, 2019, The Linux Foundation. All rights reserved.
+<!-- Copyright (c) 2017, 2019-2020 The Linux Foundation. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are
@@ -302,36 +302,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <instance>slot2</instance>
         </interface>
     </hal>
-    <!-- gnss -->
-    <hal format="hidl">
-        <name>android.hardware.gnss</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IGnss</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.0::IGnss/gnss_vendor</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.gnss</name>
-        <transport>hwbinder</transport>
-        <version>1.2</version>
-        <interface>
-            <name>ILocHidlGnss</name>
-            <instance>gnss_vendor</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.gnss</name>
-        <transport>hwbinder</transport>
-        <version>2.0</version>
-        <interface>
-            <name>ILocHidlGnss</name>
-            <instance>gnss_vendor</instance>
-        </interface>
-    </hal>
-
     <hal format="hidl">
         <name>com.qualcomm.qti.dpm.api</name>
         <transport>hwbinder</transport>
@@ -400,24 +370,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         </interface>
     </hal>
     <hal format="hidl">
-        <name>vendor.qti.hardware.wifi.supplicant</name>
-        <transport>hwbinder</transport>
-        <version>2.0</version>
-        <interface>
-            <name>ISupplicantVendor</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.hardware.wifi.hostapd</name>
-        <transport>hwbinder</transport>
-        <version>1.1</version>
-        <interface>
-            <name>IHostapdVendor</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
         <name>vendor.qti.hardware.radio.ims</name>
            <transport>hwbinder</transport>
            <version>1.6</version>
@@ -469,15 +421,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
          <instance>default</instance>
        </interface>
    </hal>
-   <hal format="hidl">
-       <name>vendor.qti.ims.factory</name>
-       <transport>hwbinder</transport>
-       <version>1.0</version>
-       <interface>
-         <name>IImsFactory</name>
-         <instance>default</instance>
-       </interface>
-   </hal>
     <!-- IMS CM Service -->
     <hal format="hidl">
         <name>com.qualcomm.qti.imscmservice</name>
@@ -488,6 +431,15 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <instance>qti.ims.connectionmanagerservice</instance>
         </interface>
     </hal>
+   <hal format="hidl">
+       <name>vendor.qti.ims.factory</name>
+       <transport>hwbinder</transport>
+       <version>1.0</version>
+       <interface>
+         <name>IImsFactory</name>
+         <instance>default</instance>
+       </interface>
+   </hal>
     <hal format="hidl">
         <name>vendor.qti.data.factory</name>
         <transport>hwbinder</transport>
@@ -534,7 +486,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <hal format="hidl">
         <name>vendor.qti.esepowermanager</name>
         <transport>hwbinder</transport>
-        <version>1.0</version>
+        <version>1.1</version>
         <interface>
             <name>IEsePowerManager</name>
             <instance>default</instance>
@@ -594,20 +546,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <instance>default</instance>
         </interface>
     </hal>
-    <!-- Trusted UI HAL Service -->
-    <hal format="hidl">
-        <name>vendor.qti.hardware.trustedui</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>ITrustedUI</name>
-            <instance>default</instance>
-        </interface>
-        <interface>
-            <name>ITrustedInput</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
     <!-- Tether Offload -->
     <hal format="hidl">
         <name>android.hardware.tetheroffload.config</name>
@@ -647,6 +585,16 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <instance>wifiStats</instance>
         </interface>
     </hal>
+    <!-- cryptfshw HAL service -->
+    <hal format="hidl">
+        <name>vendor.qti.hardware.cryptfshw</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>ICryptfsHw</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
     <!-- BluetoothSar service-->
     <hal format="hidl">
         <name>vendor.qti.hardware.bluetooth_sar</name>
@@ -665,6 +613,16 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <interface>
             <name>ITouchCompanion</name>
             <instance>TouchCompanionService</instance>
+        </interface>
+    </hal>
+    <!-- CapabilityConfigStore HAL Service  -->
+    <hal format="hidl">
+        <name>vendor.qti.hardware.capabilityconfigstore</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>ICapabilityConfigStore</name>
+            <instance>default</instance>
         </interface>
     </hal>
     <hal format="hidl">
@@ -755,15 +713,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <version>3.0</version>
         <interface>
             <name>IKeymasterDevice</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.hardware.cryptfshw</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>ICryptfsHw</name>
             <instance>default</instance>
         </interface>
     </hal>
