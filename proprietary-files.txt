@@ -865,7 +865,7 @@ vendor/lib64/hw/fingerprint.goodix.default.so
 vendor/lib64/com.fingerprints.extension@1.0.so
 vendor/lib64/libgf_ca.so
 vendor/lib64/libgf_hal.so
-vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so
+vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so|4b1ebc2cdfa327850776afdebe2235e97815c71d
 vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so
 
 # FM - from ginkgo V12.5.1.0.RCOCNXM
