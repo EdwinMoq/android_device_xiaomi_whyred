@@ -33,6 +33,9 @@
 # Persist
 /persist(/.*)?                                  u:object_r:mnt_vendor_file:s0
 
+# Power
+/vendor/bin/hw/android\.hardware\.power-service\.xiaomi-libperfmgr        u:object_r:hal_power_default_exec:s0
+
 # Thermal
 /vendor/bin/hw/android\.hardware\.thermal@2\.0-service\.qti   u:object_r:hal_thermal_default_exec:s0
 /data/vendor/thermal(/.*)?                      u:object_r:thermal_data_file:s0
