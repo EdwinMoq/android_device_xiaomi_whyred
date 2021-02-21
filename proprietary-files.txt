@@ -1047,27 +1047,31 @@ vendor/lib64/libmlipay@1.1.so|7d07b19faa36c62babf39a41b2baf8de370d706c
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so|2c05d2902c757410aec30c6a5d0bf77b016583fa
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so|0c4bb0c8ba1cbf357bb0b5117e93db0382ffcf49
 
-# Perf - from jasmine
-vendor/bin/hw/vendor.qti.hardware.perf@2.0-service|57b1e050c9300a72baff8a19872b5a32ae9122e9
-vendor/bin/msm_irqbalance|e917104fbd26c844d27ffb2b7ec4f665fdfb8b78
-vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc|cc8658db5e19f8e5e575fb986e7d38147e675f8d
+# Perf - from citrus V12.0.1.0.QJFMIXM
+vendor/bin/hw/vendor.qti.hardware.perf@2.1-service|9e1cd679e400500baab7655625473e5cbe39ee1f
+vendor/bin/msm_irqbalance|dd8e65dae1f2f8ec1beb72f7115621f301eab85d
+vendor/etc/init/vendor.qti.hardware.perf@2.1-service.rc|0d7eaa2a99b16738f4e40d7ee7473bb0dd705d2c
+vendor/lib/libperfconfig.so|3d3f47e17b66056bc5b0b5453defedd81673facd
+vendor/lib/libperfgluelayer.so|968f196ac91dd33a8e1ea356b1985716368c13f2
+vendor/lib/libqti-perfd-client.so|b291dd0eabf0318c39939693e370af6aceff8576
+vendor/lib/libqti-perfd.so|27e93a965e208e31984b731ac0fb5e5fe81398ac
+vendor/lib/libqti-util.so|e4ae09fb33fbc29ab390ba5597cf0cf3d4c0cb39
+vendor/lib/vendor.qti.hardware.perf@2.0.so|d928ac98ec29d96a892dc871b8c3d0bf59502e97
+vendor/lib/vendor.qti.hardware.perf@2.1.so|5d2bc75d37cf0200ffe3058cda90d6ef1abe1e81
+vendor/lib64/libperfconfig.so|134153741238920bbee61fddb312c3094a5330b8
+vendor/lib64/libperfgluelayer.so|e23f16f40d28b4c40d1f13a63b15173aaa39ea0b
+vendor/lib64/libqti-perfd-client.so|43ffe48ce70220f94a6b5829c7ecf08e3e94e305
+vendor/lib64/libqti-perfd.so|1d3f192f53127d1f6efe9fcf9c34d24f204710cc
+vendor/lib64/libqti-util.so|ce98e960170cbdeef8fda0d85f03947f46c4c754
+vendor/lib64/vendor.qti.hardware.perf@2.0.so|a3daf1adb259b71cbbdb6b039b58341503fb6ccc
+vendor/lib64/vendor.qti.hardware.perf@2.1.so|9dfb34da797e388f819b7eb1132f764f3341945a
+
+# Perf configs - from jasmine
 vendor/etc/perf/commonresourceconfigs.xml|1db765e3a8fb902bdb648091178a709c34f3fb16
 vendor/etc/perf/perfboostsconfig.xml|79662db6bf1ceea7a27ab2b89bb41d3e38005d90
 vendor/etc/perf/perfconfigstore.xml|760248b82c4f1ad8b0e7ed1924d2b198229e118d
 vendor/etc/perf/targetconfig.xml|376ae331df9d6c30b6208f25d04ae4ea11c0e2ea
 vendor/etc/perf/targetresourceconfigs.xml|7132f1e9ce3bb21b4854b81d6e5d24409251f177
-vendor/lib/libperfconfig.so|519fe27ba0fcc96704cd7930cae62547c60c318a
-vendor/lib/libperfgluelayer.so|569bc942fcd54c1a52d345178694917642707b47
-vendor/lib/libqti-perfd-client.so|3fa11449bc068278b7a87aa55e161b015cd780f3
-vendor/lib/libqti-perfd.so|f09adaadc93019827274d4eb7725d09412911d82
-vendor/lib/libqti-util.so|e7882172095bb0df546d4c358744761aba932b5a
-vendor/lib/vendor.qti.hardware.perf@2.0.so|2bd82bb06e4651d59ecc7433680fabbde5173643
-vendor/lib64/libperfconfig.so|cfab233f6442be6d590184394aa36bf6c9802438
-vendor/lib64/libperfgluelayer.so|bfb9706a184fca4163e5a7cb5fcad11674958761
-vendor/lib64/libqti-perfd-client.so|ac1ca3a6ba93feee4c977cb6e54ca91ab3ce3b23
-vendor/lib64/libqti-perfd.so|184e4a124ef4f509ce377ce3941353948917e605
-vendor/lib64/libqti-util.so|c78b855b3909b01071ced5fc898add769de4a5b6
-vendor/lib64/vendor.qti.hardware.perf@2.0.so|3717b35807fd7b33dced6e311c3b609d57399363
 
 # Peripheral - from ginkgo V12.5.1.0.RCOCNXM
 vendor/bin/pm-proxy|8e159d1fb25f5ee24cf94be8534b3bb8891831bc
