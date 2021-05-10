@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!--- Copyright (c) 2013-2017, The Linux Foundation. All rights reserved.       -->
+<!--- Copyright (c) 2013-2017, 2021 The Linux Foundation. All rights reserved.       -->
 <!---                                                                           -->
 <!--- Redistribution and use in source and binary forms, with or without        -->
 <!--- modification, are permitted provided that the following conditions are    -->
@@ -53,6 +53,7 @@
 	<!-- HMI_L6660_A01-1117 MOD by duanlongfei for VTS fail 20180603 begin  -->
         <param execution_type="ADSP" /> <!-- value: "WDSP" "ADSP" "DYNAMIC" -->
 	<!-- HMI_L6660_A01-1117 MOD by duanlongfei for VTS fail 20180603 end    -->
+        <param second_stage_supported="false" />
         <param app_type="2" /> <!-- app type used in ACDB -->
         <param library="libsmwrapper.so" />
         <param max_cpe_phrases="6" />
