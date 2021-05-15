@@ -48,18 +48,18 @@ vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|c9877b6cae0353d5fdea5bc
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|1e2631850cc97dfedbde50a9d0d55c8d14881b44
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so|271f85f1c6dc0c65dc3aa9a8603f3910fa50e1ea
 
-# Audio - from jasmine
-vendor/lib/libacdb-fts.so|7e542fe676bdeaf0347dada88683a67cb861d96d
-vendor/lib/libacdbloader.so|ce2494e403e79552793d65f344ce9f79b52ba51a
-vendor/lib/libacdbrtac.so|bacaa968f7da0ed014e6594b928823f0d08a06e6
-vendor/lib/libadiertac.so|ebdd9b6c4e64b38ef39401b1a1e03696583440dc
-vendor/lib/libadm.so|d7c7d22c4fe53312e1e49fbffd587b25fdf0ac89
-vendor/lib/libaudcal.so|f935b8c33972b8cee40f760478f1b64a54705683
-vendor/lib/libqtigef.so|e0c548247e923f1e972e7765a678566dd874afb7
-vendor/lib/soundfx/libasphere.so|b1b26f99d9fbfe75f109349de5505ca39ccd4c8c
-vendor/lib/soundfx/libqcbassboost.so|73339450a42b598a3c13e67b3d4a2266d986fea2
-vendor/lib/soundfx/libqcreverb.so|eb437cd5e264b1adb4546c6a5617c5da17be5839
-vendor/lib/soundfx/libqcvirt.so|ee9eaa81bb24ac0379e06b44ef257967a4d32614
+# Audio - from phoenix_sprout - RKQ1.201123.002
+vendor/lib/libacdb-fts.so|042610c28956cebf798c0315d5f878fe4e2a7572
+vendor/lib/libacdbloader.so|418cbee9b439d0aa8458074a4c6ff6ead57f700a
+vendor/lib/libacdbrtac.so|b2856ced1ee7b89181f9ae0b484bc800c2085915
+vendor/lib/libadiertac.so|d6c1d35f12df30691a6a38edd9da529a6e4aebd2
+vendor/lib/libadm.so|35460db7533555d048198b669ebbd1f96ba495fd
+vendor/lib/libaudcal.so|f45a9cfe7522d6b7e0ab70146fe8511de2bfff03
+vendor/lib/libqtigef.so|67fec669e2043edfe31275899f5a9e9ed09bc658
+vendor/lib/soundfx/libasphere.so|60225c5bb3480fc155a3e6f4828364f0041d2284
+vendor/lib/soundfx/libqcbassboost.so|7ca4fa2bb144373a51ce43e2c3fab1efb4f2cbe5
+vendor/lib/soundfx/libqcreverb.so|1e3f6f607fff94b4cc154142fca3222955e02bcf
+vendor/lib/soundfx/libqcvirt.so|9edac2a2eb9f5b7cb736ea03271103926dbbcd5a
 
 # Audio Power Amplifier
 vendor/firmware/dbmd4_va_fw.bin
