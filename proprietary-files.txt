@@ -830,6 +830,13 @@ vendor/lib64/librmp.so|176aed768090f0c8b48cb6ad9e397b35f128b2a5
 vendor/lib64/libwvhidl.so|f3c8af0dff66ed575798e2efd77148a05da31812
 vendor/lib64/mediadrm/libwvdrmengine.so|8cf585b12c4ddd07ee6920f830d53766791382b3
 
+# DSP - from lemon 21.4.13
+vendor/bin/dspservice|97d6e5d59d3c4be93154f544fe2afef31e24d305
+vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc|fbf2bb38ca6bdddf98c7123da9e1f263a4eec55f
+vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|f060101b26d3674bb173e5fc95e118f56a8ac15d
+vendor/lib/vendor.qti.hardware.dsp@1.0.so|e553aafebc4b5f2908fc03f29b086cd1261aa454
+vendor/lib64/vendor.qti.hardware.dsp@1.0.so|78e36705372a19ac664bb890dacd35a96e66bb32
+
 # Fingerprint firmware
 etc/firmware/goodixfp.b00:vendor/firmware/goodixfp.b00
 etc/firmware/goodixfp.b01:vendor/firmware/goodixfp.b01
