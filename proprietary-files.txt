@@ -1138,7 +1138,6 @@ system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625
 system_ext/etc/permissions/telephonyservice.xml|b7831598d3c19c6ce4ef431d1cc44d94c3c35a8d
 system_ext/framework/embmslibrary.jar|b5fe26c1cea597af8a1751332d187f2f574816c1
 system_ext/framework/qcrilhook.jar|ad688364314100318f305ed4ab5defec8766b20a
-system_ext/framework/qti-telephony-common.jar|25a8f6690b9069db4a616390b14cb6041c659b94
 vendor/bin/hw/qcrild|b8c1fafadf119936fb07c628248fd5e477f73f13
 vendor/bin/adpl|ed11eae8da997c338cf7c003b5e2b489dd6af7e1
 vendor/bin/netmgrd|0e3495104c8b516800544201b581bdd1d9f08703
@@ -1214,6 +1213,9 @@ vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql|ee0756cfcfda2
 vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql|fccd99b4eee6c2e1762f56b812d7f5d4ca6ab182
 vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql|9c7e9a78f0890fb210d2eadbdd9c076cd3c43594
 
+# Radio - from nubia NX659J 20201109.121337
+system_ext/framework/qti-telephony-common.jar|ac67728c317dc56f5a98f11e9f0fd526bf725755
+
 # Radio - IMS - from ginkgo V12.5.1.0.RCOCNXM
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice.xml|db25ef24f1937366d58a53b4f4b8923bc9e98d2d
 -system_ext/app/imssettings/imssettings.apk|7eddaa57cbab2aed139a754be674ae1101a66680
@@ -1246,7 +1248,6 @@ system_ext/lib64/vendor.qti.ims.callinfo@1.0.so|1dd70408bc735e97b8b71fb85d38f18b
 system_ext/lib64/vendor.qti.ims.rcsconfig@1.0.so|b641cd19f0e52fdb1f90dc441339ddce31b448bc
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|393c5affc1e8e36470705ec44396d1ffa603a541
 system_ext/lib64/vendor.qti.ims.factory@1.0.so|fbebef1b0de8dbb2a2d059175bf53fa08ef20623
--system_ext/priv-app/ims/ims.apk|3bf7a4886917f317b5d352e0ca425d5dfdc55b96
 vendor/bin/ims_rtp_daemon|070bccd359e84a2edd42b0f19e2f366ba7a762dc
 vendor/bin/imsdatadaemon|641e98bf9a75a20a894665fcd7e5c1f03ea565eb
 vendor/bin/imsqmidaemon|c27008915bf75077c0ac62568ff7012b8ac3db5c
@@ -1291,6 +1292,9 @@ vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so|d844356bf32944fdd0864b3fbc6d73f304f
 vendor/lib64/vendor.qti.ims.rcsconfig@2.0.so|8555e548d142fad0238e74e57383bb5a65e67bbc
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so|25517caf74691b812320b46b477a3f4161cc1bcf
 vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so|346a6f516637632cce8297f78227172d54d26040
+
+# Radio - IMS - from nubia NX659J 20201109.121337
+-system_ext/priv-app/ims/ims.apk|3dae438ef192086a8913c06d24c055802c25f2a6
 
 # Sensors
 vendor/etc/sensors/sensor_def_qcomdev.conf
