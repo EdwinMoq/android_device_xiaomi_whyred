@@ -1382,8 +1382,8 @@ vendor/bin/hw/android.hardware.drm@1.2-service.widevine|1aed116c6cd73ee0c89a5eec
 vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|f206aecdd6843795f6448bb6d44d2244b3e48815
 vendor/lib64/libwvhidl.so|38677623330ec145a62afdef110c713c9492671c
 
-# Wifi - from jasmine V11.0.8.0.QDIMIXM
-vendor/bin/cnss-daemon|a371213adc8fc7677d519c8d942761ffeee0f345
+# Wifi - from ginkgo V12.5.1.0.RCOCNXM
+vendor/bin/cnss-daemon|1b840d768c5d49a3a440fffcf526eefa45a7ad5b
 
 # WiFi Display - from jasmine
 bin/wfdservice|d9cccfd6ca14a1d83117533296d6cac2c139c310
