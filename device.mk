@@ -300,9 +300,9 @@ PRODUCT_COPY_FILES += \
 # Init
 PRODUCT_PACKAGES += \
     init.class_main.sh \
-    init.msm.usb.configfs.rc \
     init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
+    init.qti.dcvs.sh \
     init.qcom.rc \
     init.qcom.sensors.sh \
     init.qcom.sh \
