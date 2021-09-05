@@ -431,9 +431,7 @@ PRODUCT_BOOT_JARS += \
 
 # Thermal
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
-    $(DEVICE_PATH)/configs/thermal-engine-map.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-map.conf \
-    $(DEVICE_PATH)/configs/thermal-engine-normal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-normal.conf
+    $(DEVICE_PATH)/configs/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
 
 # Trust
 PRODUCT_PACKAGES += \
