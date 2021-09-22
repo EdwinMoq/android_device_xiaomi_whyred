@@ -933,7 +933,6 @@ vendor/lib/libllvm-qcom.so|c7af1844b19258ad6eb822fa56d0ce5fd3df232b
 vendor/lib/libOpenCL.so|6fe1ec3442653efedf49f64aa9301e0ed91abac0
 vendor/lib/librs_adreno.so|11eaa78d76d9f0e5f34ce5db2b08d5039171e4c9
 vendor/lib/librs_adreno_sha1.so|687de9471eaa1dab7b8180c327f0025b715cdf7e
-vendor/lib/libRSDriver_adreno.so|5d5c9310505ab6b2a42006118e87fd8489d525d1
 vendor/lib64/egl/eglSubDriverAndroid.so|2f5f0f8dff2e5a52f5852a9dcdb844d348b934bc
 vendor/lib64/egl/libEGL_adreno.so|881af356ca2f30d993fd2a859d1ad93a704a754f
 vendor/lib64/egl/libGLESv1_CM_adreno.so|ee3604131af93e38baaf0cdff49523514cd1f1b2
@@ -952,7 +951,6 @@ vendor/lib64/libllvm-qcom.so|f405f07c443129f0a82c87b528d690e26afcbe4e
 vendor/lib64/libOpenCL.so|d6bb350254707592d6f6360c06d4c3336f8f1155
 vendor/lib64/librs_adreno.so|3d0a23777e7bdd979a0c84d9da731ae15d58af68
 vendor/lib64/librs_adreno_sha1.so|e6069c4de97498e0ef4116e985cbbb9b4a2e283d
-vendor/lib64/libRSDriver_adreno.so|b3d5f6b891f6ef0e8f079609d2722f1c29d28c8b
 
 # Graphics (HDR) - from LA.UM.8.2.1.r1-05600-sdm660
 vendor/lib/libhdr_tm.so|0104cdb2789ab1fb54b6b93564300f13ffeefc39
