@@ -119,6 +119,10 @@ vendor.video.disable.ubwc=1
 # Charger
 ro.charger.enable_suspend=true
 
+# Chipset
+ro.soc.manufacturer=QTI
+ro.soc.model=SDM660
+
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
 
