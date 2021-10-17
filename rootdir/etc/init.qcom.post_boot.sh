@@ -758,7 +758,7 @@ function sdm660_sched_schedutil_dcvs() {
             echo "bw_hwmon" > $cpubw/governor
             echo 50 > $cpubw/polling_interval
             echo 762 > $cpubw/min_freq
-            echo "1525 3143 5859 7759 9887 10327 11863 13763" > $cpubw/bw_hwmon/mbps_zones
+            echo "762 1571 2086 2929 3879 5163 5931 6881" > $cpubw/bw_hwmon/mbps_zones
             echo 4 > $cpubw/bw_hwmon/sample_ms
             echo 85 > $cpubw/bw_hwmon/io_percent
             echo 100 > $cpubw/bw_hwmon/decay_rate
