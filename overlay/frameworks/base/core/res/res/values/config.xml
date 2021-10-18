@@ -335,4 +335,9 @@
         <!-- ID0:Fingerprint:Strong -->
         <item>0:2:15</item>
     </string-array>
+
+    <!-- Radius of the software rounded corners. -->
+    <dimen name="rounded_corner_radius">39px</dimen>
+    <dimen name="rounded_corner_radius_top">38px</dimen>
+    <dimen name="rounded_corner_radius_bottom">39px</dimen>
 </resources>
