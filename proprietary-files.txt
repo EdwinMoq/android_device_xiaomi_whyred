@@ -803,32 +803,29 @@ vendor/etc/qdcm_calib_data_shenchao_td4310_fhd_video_mode_dsi_panel.xml
 vendor/etc/qdcm_calib_data_tianma_nt36672_fhd_video_mode_dsi_panel.xml
 vendor/etc/qdcm_calib_data_tianma_td4310_fhd_video_mode_dsi_panel.xml
 
-# DRM - from LA.UM.8.2.1.r1-05600-sdm660
-vendor/bin/qseecomd|46e7940548aa3fe4f579c59858f2da4dba97707c
-vendor/lib/libQSEEComAPI.so|48b45554655c961c2614fbd41daa692be4fd53fb
-vendor/lib/libsdedrm.so|0ac8ad285d137830d1971199ea86230855863321
-vendor/lib64/libdrmfs.so|958d8cb360b70ccdea24621ced82bd7bc30c697b
-vendor/lib64/libdrmtime.so|a7f1076fad0535f11a83d8fa03e7796150c3a4b5
-vendor/lib64/libGPreqcancel.so|e402b6dd242031af4e67d9d46f1ec72ff0ed35d3
-vendor/lib64/libGPreqcancel_svc.so|817295e1f7de69635dee44ad30382edc0ba9455a
-vendor/lib64/libqisl.so|c4e7f283f3d416b784f2ec0f7000d607e044809b
-vendor/lib64/libQSEEComAPI.so|0a860cf2d01df964c91256984ca4e425dc783f2f
-vendor/lib64/librpmb.so|c34f39fc6b548d0da94c2198de3e4963fc241852
-vendor/lib64/libsdedrm.so|7f110a14cfe6440466f80020983cad335a844d12
-vendor/lib64/libsecureui_svcsock.so|9cb1b317f10d53819158ff8b05b25929a7759857
-vendor/lib64/libSecureUILib.so|680788dde32476a5f118fcb76135426df6f377c2
-vendor/lib64/libssd.so|bf3b64cc51cbbe2d70373d94025725c49ce1d46b
-vendor/lib64/libStDrvInt.so|8de13b46e8f21016c0fffaec34b0a2bacfccec04
+# DRM - from S62Pro RKQ1.210406.002
+vendor/bin/qseecomd|97eeb3f297d16e0364e73f8e78ccb7a07e70f093
+vendor/lib64/libdrmfs.so|d01f7964b64bfabd56afea030a2e874f5b3af266
+vendor/lib64/libdrmtime.so|9aca2a5224378365232933b06a742a2498dd7468
+vendor/lib64/libGPreqcancel.so|b9efbc8623981e1249ad0a0f8964b2b655d2b334
+vendor/lib64/libGPreqcancel_svc.so|5369bb41c214c0bd3782438c0488cd2dba8cb667
+vendor/lib64/libqisl.so|c79719eebc094c2af9561e8df2c158638b111b70
+vendor/lib64/libQSEEComAPI.so|7ad0a71938c1de5dbb54a52fb68285ac08f0a130
+vendor/lib64/librpmb.so|eac8411b60e4842b0fee4c9145dd9cdc3e24a67e
+vendor/lib64/libsecureui_svcsock.so|6af612f057f4f28720d6db9b300b58c883da6539
+vendor/lib64/libSecureUILib.so|b98555b76083a897fc9bbfc27778750d2d47817a
+vendor/lib64/libssd.so|774488b88c37053067b3cad551ac95360c03edd3
+vendor/lib64/libStDrvInt.so|6091f1f496b87730f9a77e9ede504c4fa99c608a
 
-# DRM - Widevine - from ginkgo V12.5.1.0.RCOCNXM
-vendor/bin/hw/android.hardware.drm@1.3-service.widevine|75103a18355966370895526dc9afb6adff4b755b
+# DRM - Widevine - from S62Pro RKQ1.210406.002
+vendor/bin/hw/android.hardware.drm@1.3-service.widevine|2158f47423c723a9da29bb81bb16987a1e715c21
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc|c35e1a6f9a6faff19064a81e07c4be82ceaf4bb5
 -vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml|ebebcf8f367641480cf7d512fc06e6ab777527be
-vendor/lib64/libbase64.so|caba4e42499d8e53e80c5e05313a36058ae5123e
-vendor/lib64/libcpion.so|afa44f5941a880a4d304dfac4b5d175762b20539
-vendor/lib64/librmp.so|176aed768090f0c8b48cb6ad9e397b35f128b2a5
-vendor/lib64/libwvhidl.so|f3c8af0dff66ed575798e2efd77148a05da31812
-vendor/lib64/mediadrm/libwvdrmengine.so|8cf585b12c4ddd07ee6920f830d53766791382b3
+vendor/lib64/libbase64.so|ba6ad6314fe82d8efc770e436237dec48c9d1331
+vendor/lib64/libcpion.so|80d7e010395b3ead01b70435584dfa11afbb52bf
+vendor/lib64/librmp.so|6392e70196f5a6da2d49a1aaec60f06ca378f1c4
+vendor/lib64/libwvhidl.so|acf4870a0b10af74a40a4c6180f2c10a1706ddbd
+vendor/lib64/mediadrm/libwvdrmengine.so|eef10067daf437a2c302e668967a7c8c55fddbe9
 
 # DSP - from S62Pro RKQ1.210406.002
 vendor/bin/dspservice|a8eb76af6150bbf29c12b76b00ab469b99f563f7
@@ -988,13 +985,8 @@ vendor/firmware/a530_pfp.fw
 vendor/firmware/a530_pm4.fw
 vendor/firmware/a540_gpmu.fw2
 
-# Keymaster - from LA.UM.8.2.1.r1-05600-sdm660
-vendor/lib/libkeymasterdeviceutils.so|df3946ad31bfd7b0837376d6740b8b0f3ede588d
-vendor/lib/libkeymasterprovision.so|0e5541957d5a259035498fce37550d8565e35697
-vendor/lib/libkeymasterutils.so|7e07fa18fba352165c5e8e0169175c5f7d3088a8
-vendor/lib64/libkeymasterdeviceutils.so|ea44915adfee57f1bd813b2184987565d396ab82
-vendor/lib64/libkeymasterprovision.so|c4a8047563fcdefa53a3418b5916e82988426b74
-vendor/lib64/libkeymasterutils.so|2791994395cd10eb1092b8bd8fea15987e17421d
+# Keymaster - from S62Pro RKQ1.210406.002
+vendor/lib64/libkeymasterdeviceutils.so|6fd0b0e1b30c4e6c5272794896306596880c657b
 
 # Keystore
 vendor/lib/hw/keystore.sdm660.so
@@ -1332,10 +1324,10 @@ vendor/lib/libthermalfeature.so|52c35a4e2bc048839e4f9172cc2d299e2367a1fd
 vendor/lib64/libthermalclient.so|ed01fa6caeb9dfbddc0fafc197abe13f3c8b56f9
 vendor/lib64/libthermalfeature.so|f2b78560b6b87c19336ae48ea26d3af756123047
 
-# TUI - from jasmine
-vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|a0d692fe10ef9dc4479497fa666640612f06fbb4
+# TUI - from S62Pro RKQ1.210406.002
+vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|15378114c18fd1b1c8f9671f656396285ad1de48
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|e47baed52f1c0637de34fa55e45a86b4b412a672
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|4ba792ee3234dca4cd7ebbd7b3f9003c800f51b4
 
 # Wifi - from ginkgo V12.5.1.0.RCOCNXM
 vendor/bin/cnss-daemon|1b840d768c5d49a3a440fffcf526eefa45a7ad5b
