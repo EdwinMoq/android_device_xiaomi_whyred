@@ -689,8 +689,8 @@ vendor/lib/libmmcamera_whyred_s5k5e8_qtech_ii_eeprom.so
 vendor/lib/libMiWatermark.so|fe09202b8283cd88f86e96a5ef52b4db94b7ade5
 vendor/lib/libft2vendor.so|1332ed2141660b9372c959ca1155575c25a73751
 
-# Charger - from ginkgo V12.5.1.0.RCOCNXM
-vendor/bin/hvdcp_opti|673f4c4eb8fa0ad5f274a18081c8619f4b775596
+# Charger - from S62Pro RKQ1.210406.002
+vendor/bin/hvdcp_opti|0af1d3a59fd10acd7a614662c341421d9267014c
 
 # CNE - from ginkgo V12.5.1.0.RCOCNXM
 system_ext/framework/com.quicinc.cne.api-V1.1-java.jar|e71f1a060bc65eb373beb6d33158c0e2b37e2a70
