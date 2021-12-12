@@ -1181,9 +1181,6 @@ vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql|ee0756cfcfda2
 vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql|fccd99b4eee6c2e1762f56b812d7f5d4ca6ab182
 vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql|9c7e9a78f0890fb210d2eadbdd9c076cd3c43594
 
-# Radio - from nubia NX659J 20201109.121337
-system_ext/framework/qti-telephony-common.jar|ac67728c317dc56f5a98f11e9f0fd526bf725755
-
 # Radio - IMS - from ginkgo V12.5.1.0.RCOCNXM
 system_ext/etc/permissions/com.qualcomm.qti.imscmservice.xml|db25ef24f1937366d58a53b4f4b8923bc9e98d2d
 -system_ext/app/imssettings/imssettings.apk|7eddaa57cbab2aed139a754be674ae1101a66680
