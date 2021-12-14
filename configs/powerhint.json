@@ -58,13 +58,11 @@
       "Path": "/sys/class/kgsl/kgsl-3d0/min_pwrlevel",
       "Values": [
         "0",
-        "1",
-        "2"
+        "3"
       ],
       "Comments": [
         "0 => 430000000",
-        "1 => 370000000",
-        "2 => 266000000"
+        "3 => 160000000"
       ],
       "ResetOnInit": true
     },
@@ -270,7 +268,7 @@
       "PowerHint": "EXPENSIVE_RENDERING",
       "Node": "GPUMinFreq",
       "Duration": 0,
-      "Value": "1"
+      "Value": "0"
     },
     {
       "PowerHint": "EXPENSIVE_RENDERING",
