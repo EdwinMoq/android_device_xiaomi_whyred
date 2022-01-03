@@ -125,7 +125,7 @@
       "Path": "/sys/class/devfreq/soc:qcom,cpu-cpu-ddr-bw/min_freq",
       "Values": [
         "6881",
-        "2597",
+        "3879",
         "762"
       ],
       "ResetOnInit": true
@@ -202,7 +202,7 @@
       "PowerHint": "INTERACTION",
       "Node": "CPUBWMinFreq",
       "Duration": 0,
-      "Value": "2597"
+      "Value": "3879"
     },
     {
       "PowerHint": "LAUNCH",
